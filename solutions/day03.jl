@@ -60,7 +60,7 @@ end
 
 function get_least_common_in_col(data, index)
     average_val = sum(data) / length(data)
-    if average_val[index] > 0.5
+    if average_val[index] >= 0.5
         return 0
     else
         return 1
